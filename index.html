@@ -46,18 +46,18 @@
 <body class="font-lato">
 
     <!-- header part start -->
-    <header class=" mt-9  md:mx-24 lg:mx-32 p-4">
+    <header class=" mt-9  md:mx-24 lg:mx-14 xl:mx-32 p-4">
         <!-- Nav section start -->
-        <nav class="mb-12 rounded-[600px] md:bg-primary-clr lg:bg-primary-clr p-2 lg:p-4">
+        <nav class="mb-12 rounded-[600px] md:bg-primary-clr lg:bg-primary-clr p-2  xl:p-4">
             <div class="navbar  w-[100%]">
 
                 <div
-                    class="flex-1 justify-between md:justify-around  md:gap-34 lg:gap-x-36 flex-row-reverse  items-center ">
+                    class="flex-1 justify-between md:justify-around  md:gap-34 lg:gap-0 xl:gap-36 flex-row-reverse  items-center ">
 
                     <!-- search bar -->
                     <div
                         class=" hidden absolute md:relative lg:relative  md:flex  lg:flex items-center bg-white  rounded-[50px] p-1 md:p-3 lg:p-4 ">
-                        <input class="outline-none lg:w-[250px]" type="text" placeholder="Search here ">
+                        <input class="outline-none xl:w-[250px]" type="text" placeholder="Search here ">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
 
@@ -87,12 +87,12 @@
                     <div class="flex">
                         <img class="w-10" src="images/logo.png" alt="">
                         <a
-                            class="btn btn-ghost normal-case text-2xl lg:text-[40px] font-bold text-black md:text-white lg:text-white">Fruit
+                            class="btn btn-ghost normal-case text-2xl lg:text-3xl xl:text-[40px] font-bold text-black md:text-white lg:text-white">Fruit
                             Burst</a>
                     </div>
                     <!-- menubar -->
-                    <div class="navbar-center hidden  lg:flex">
-                        <ul class="menu menu-horizontal px-1 text-base text-[18px] text-white font-normal">
+                    <div class="navbar-center hidden  lg:flex lg:gap-2">
+                        <ul class="menu menu-horizontal  xl:px-1 text-base text-[18px] text-white font-normal">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
@@ -120,8 +120,9 @@
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                     <!-- carousel description -->
-                    <div class=" absolute md:pt-8 lg:pt-20  text-center w-[100%] h-[100%] bg-[#00000099]">
-                        <h2 class=" text-2xl lg:text-7xl font-black text-white    lg:mb-6">Exotic tastes at your <br>
+                    <div class=" absolute md:pt-8 lg:pt-10 xl:pt-20  text-center w-[100%] h-[100%] bg-[#00000099]">
+                        <h2 class=" text-2xl lg:text-4xl xl:text-7xl font-black text-white    lg:mb-6">Exotic tastes at
+                            your <br>
                             doorstep</h2>
                         <p class=" text-xs lg:text-xl mb-2 lg:mb-8 text-white">Exotic tastes at your doorstep</p>
                         <button
@@ -183,7 +184,7 @@
             </div>
             <!-- extra part -->
             <div
-                class="hidden bg-white lg:px-14 lg:py-10 rounded-lg drop-shadow-xl md:grid md:grid-cols-5  lg:grid lg:grid-cols-5 md:gap-5 lg:gap-16 justify-center items-center absolute md:top-52 md:left-10 md:right-10 lg:top-96 lg:left-24 lg:right-24">
+                class="hidden bg-white lg:px-14 lg:py-10 rounded-lg drop-shadow-xl md:grid md:grid-cols-5  lg:grid lg:grid-cols-5 md:gap-5 lg:gap-16 justify-center items-center absolute md:top-52 md:left-10 md:right-10 lg:top-72 lg:left-24 lg:right-24 xl:top-96 xl:left-24 xl:right-24">
                 <div class="text-center">
                     <img src="images/fruit1.png" alt="Grapes">
                     <p>Grapes</p>
@@ -215,12 +216,12 @@
 
 
     <!-- main part start -->
-    <main class=" mt-16 md:mt-32 lg:mt-32  md:mx-24 lg:mx-32 p-4">
+    <main class=" mt-16 md:mt-32 xl:mt-32  md:mx-24 xl:mx-32 lg:mx-14 p-4">
         <!-- Deal of the day section start -->
         <section>
             <!-- deal of the day -->
             <div
-                class="flex flex-col lg:flex-row justify-between text-center lg:text-left lg:gap-72 items-center mb-5 lg:mb-12">
+                class=" flex flex-col lg:flex-row lg:justify-between text-center lg:text-left lg:gap-x-28 xl:gap-72 items-center mb-5 lg:mb-12">
                 <div class="space-y-6 mb-8">
                     <h3 class="text-3xl md:text-5xl lg:text-5xl font-black">Deal of the day</h3>
                     <p>
@@ -668,11 +669,11 @@
             </div>
             <!-- grid container -->
             <div class="relative mt-12">
-                <div class="my-6 lg:absolute top-0 left-96">
-                    <img class="mx-auto rounded-lg" src="images/whychoose1.png" alt="">
+                <div class="my-6 lg:absolute lg:top-[25%] lg:left-[25%] xl:top-0 xl:left-96">
+                    <img class="mx-auto rounded-lg lg:w-[60%] xl:w-[100%]" src="images/whychoose1.png" alt="">
                 </div>
                 <div
-                    class="flex flex-col  lg:items-center md:flex-row md: gap-5 lg:flex-row space-y-9 md:space-y-0 lg:space-y-0 lg:justify-between relative">
+                    class="flex flex-col  lg:items-center md:flex-row lg:gap-10  xl:gap-5 lg:flex-row space-y-9 md:space-y-0 lg:space-y-0 lg:justify-between relative">
                     <!-- choose container 1 -->
                     <div class="space-y-12">
                         <!-- reason 01 -->
@@ -682,9 +683,9 @@
                             </div>
 
                             <div class="space-y-4">
-                                <h5 class="text-2xl font-black">Dedicated Team</h5>
+                                <h5 class="text-2xl lg:text-xl xl:text-2xl font-black">Dedicated Team</h5>
                                 <hr class="w-[100px] mx-auto lg:mx-0">
-                                <p class="lg:w-80">
+                                <p class="xl:w-80 lg:w-60 ">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
@@ -696,9 +697,9 @@
                             </div>
 
                             <div class="space-y-4">
-                                <h5 class="text-2xl font-black">Fresh is Best</h5>
+                                <h5 class="text-2xl lg:text-xl xl:text-2xl font-black">Fresh is Best</h5>
                                 <hr class="w-[100px] mx-auto lg:mx-0">
-                                <p class="lg:w-80">
+                                <p class="xl:w-80 lg:w-60 ">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
@@ -710,9 +711,9 @@
                             </div>
 
                             <div class="space-y-4">
-                                <h5 class="text-2xl font-black">Gift Certificates</h5>
+                                <h5 class="text-2xl lg:text-xl xl:text-2xl font-black">Gift Certificates</h5>
                                 <hr class="w-[100px] mx-auto lg:mx-0">
-                                <p class="lg:w-80">
+                                <p class="xl:w-80 lg:w-60 ">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
@@ -728,9 +729,9 @@
                             </div>
 
                             <div class="space-y-4">
-                                <h5 class="text-2xl font-black">Integrated Supplier</h5>
+                                <h5 class="text-2xl lg:text-xl xl:text-2xl font-black">Integrated Supplier</h5>
                                 <hr class="w-[100px] mx-auto lg:ml-[220px]">
-                                <p class="lg:w-80">
+                                <p class="xl:w-80 lg:w-60 lg:ml-20 xl:ml-0">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
@@ -743,24 +744,24 @@
                             </div>
 
                             <div class="space-y-4">
-                                <h5 class="text-2xl font-black">Sustainable Practice</h5>
+                                <h5 class="text-2xl lg:text-xl xl:text-2xl font-black">Sustainable Practice</h5>
                                 <hr class="w-[100px] mx-auto lg:ml-[220px]">
-                                <p class="lg:w-80">
+                                <p class="xl:w-80 lg:w-60 lg:ml-20 xl:ml-0">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
                         </div>
                         <!-- reason 6 -->
                         <div
-                            class="flex flex-col lg:flex-row-reverse text-center lg:text-right items-center gap-2 lg:gap-5">
+                            class="flex flex-col lg:flex-row-reverse text-center lg:text-right  items-center gap-2 lg:gap-5">
                             <div class="bg-[#12121220] rounded-full p-2">
                                 <i class="fa-solid fa-thumbs-up text-2xl"></i>
                             </div>
 
                             <div class="space-y-4">
-                                <h5 class="text-2xl font-black">The Benefits Only</h5>
+                                <h5 class="text-2xl lg:text-xl xl:text-2xl font-black">The Benefits Only</h5>
                                 <hr class="w-[100px] mx-auto lg:ml-[220px]">
-                                <p class="lg:w-80">
+                                <p class="xl:w-80 lg:w-60 lg:ml-20 xl:ml-0">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
